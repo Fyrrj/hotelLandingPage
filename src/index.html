@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./scripts/owlcarousel/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./scripts/owlcarousel/dist/assets/owl.theme.default.min.css"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Hotel</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="wrapper__header">
+        <div class="header__top">
+          <div class="top__logo">
+            <img src="./assets/logo.svg" alt="logo" />
+          </div>
+          <div class="top__reservation">
+            <nav class="reservation">
+              <div class="reservation__textGroup">
+                <p class="textGroup__firstP">Przyjazd</p>
+                <p class="textGroup__secondP">24 Gru 2020</p>
+              </div>
+              <img src="./assets/arrow-triangle-down.svg" alt="rozwiń" />
+            </nav>
+            <div class="reservation border">
+              <div class="reservation__textGroup">
+                <p class="textGroup__firstP">Wyjazd</p>
+                <p class="textGroup__secondP">25 Gru 2020</p>
+              </div>
+              <img src="./assets/arrow-triangle-down.svg" alt="rozwiń" />
+            </div>
+            <button class="reservation__button">rezerwuj online</button>
+          </div>
+        </div>
+        <div class="header__mid">
+          <h1>Letni Chillout</h1>
+        </div>
+        <div class="header__bottom">
+          <button class="bottom__button" id="scrollBtn">
+            Przewiń
+            <img src="./assets/arrow-triangle-down.svg" alt="zjedź w dół" />
+          </button>
+        </div>
+      </header>
+      <main class="wrapper__main">
+        <section class="main__section" id="firstSection">
+          <div class="section__info">
+            <h3>Z myślą o Tobie</h3>
+            <h2>Oferty specjalne</h2>
+          </div>
+          <article class="section__article">
+            <div class="owl-carousel">
+              <div class="article__card slide1Url">
+                <div class="card__title">
+                  <h4>Weekendowe mikołajkowe szaleństwo</h4>
+                  <span class="title__tag">Rodzinne</span>
+                </div>
+                <div class="card__offer">
+                  <div class="offer__info">
+                    <div class="info__pBox">
+                      <p>od <span>245 zł </span>/noc</p>
+                    </div>
+                  </div>
+                  <button class="offer__button">
+                    Więcej
+                    <img src="./assets/arrow-more.svg" alt="zobacz więcej" />
+                  </button>
+                </div>
+              </div>
+              <div class="article__card slide2Url">
+                <div class="card__title">
+                  <h4>Relaksujące SPA dla pary</h4>
+                  <span class="title__tag">SPA & Wellness</span>
+                </div>
+                <div class="card__offer">
+                  <div class="offer__info">
+                    <div class="info__pBox">
+                      <p>od <span>1230 zł </span>/noc</p>
+                    </div>
+                  </div>
+                  <button class="offer__button">
+                    Więcej
+                    <img src="./assets/arrow-more.svg" alt="zobacz więcej" />
+                  </button>
+                </div>
+              </div>
+              <div class="article__card slide3Url">
+                <div class="card__title">
+                  <h4>Ferie w górach zimowych wypoczynek</h4>
+                  <span class="title__tag">Rodzinne</span>
+                </div>
+                <div class="card__offer">
+                  <div class="offer__info">
+                    <div class="info__pBox">
+                      <p>od <span>220 zł </span>/noc</p>
+                    </div>
+                  </div>
+                  <button class="offer__button">
+                    Więcej
+                    <img src="./assets/arrow-more.svg" alt="zobacz więcej" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+        <section class="main__section bgSecondary">
+          <div class="section__info">
+            <h3>Spędź czas wyjątkowo</h3>
+            <h2>Wiele Atrakcji</h2>
+          </div>
+          <article class="section__gallery">
+            <div class="gallery__card">
+              <div class="card__overlay">
+                <p class="card__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perspiciatis consequatur maxime deserunt quasi, iusto autem
+                  praesentium numquam iste quia, similique repellat voluptatum
+                  quisquam fugit inventore ipsa corporis vel? Eligendi, sunt!
+                </p>
+              </div>
+              <img src="./assets/tiles-one.jpg" alt="kręgielnia" />
+              <p class="card__title">Kręgielnia</p>
+            </div>
+            <div class="gallery__card">
+              <div class="card__overlay">
+                <p class="card__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Odio, deserunt. Fuga expedita corporis odit obcaecati!
+                  Officiis, tempore libero! Praesentium rerum quas voluptates
+                  ratione maiores mollitia aperiam necessitatibus quae sunt
+                  ipsa!
+                </p>
+              </div>
+              <img src="./assets/tiles-two.jpg" alt="kręgielnia" />
+              <p class="card__title">Animacje dla dzieci</p>
+            </div>
+            <div class="gallery__card">
+              <div class="card__overlay">
+                <p class="card__text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae
+                  vitae tenetur aliquid, cumque eum similique fugiat. Fugit
+                  tenetur hic nobis et vero. Eum ad eveniet blanditiis sunt!
+                  Commodi, maxime molestias.
+                </p>
+              </div>
+              <img src="./assets/tiles-three.jpg" alt="kręgielnia" />
+              <p class="card__title">Eventy</p>
+            </div>
+            <div class="gallery__card">
+              <div class="card__overlay">
+                <p class="card__text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Repudiandae aut itaque sapiente voluptates deserunt eos
+                  labore, voluptas ipsum distinctio laboriosam fuga consectetur
+                  numquam cum delectus corporis fugiat? Quibusdam, a
+                  necessitatibus?
+                </p>
+              </div>
+              <img src="./assets/tiles-four.jpg" alt="kręgielnia" />
+              <p class="card__title">Rowery</p>
+            </div>
+          </article>
+        </section>
+        <section class="main__section place">
+          <article class="section__info">
+            <img
+              class="info__icon"
+              src="./assets/compass.png"
+              alt="lokalizacja"
+            />
+            <h3>Świetna Lokalizacja</h3>
+            <p class="info__p">
+              Niedaleko od centrum urokliwie położonego miasteczka Szczyrk, w
+              samym sercu Beskidu Śląskiego, u stóp góry zwanej przez górali
+              Klimczok.
+            </p>
+            <div class="info__box">
+              <div class="box__content">
+                <div class="box__square">
+                  <img src="./assets/icon-one.svg" alt="ikona drzew" />
+                </div>
+                <p class="square__p">W sercu Beskidu Śląskiego</p>
+              </div>
+              <div class="box__content">
+                <div class="box__square">
+                  <img src="./assets/icon-two.svg" alt="ikona szczytów" />
+                </div>
+                <p class="square__p">W centrum Szczyrku</p>
+              </div>
+            </div>
+          </article>
+          <aside class="section__map">
+            <img src="./assets/maps.png" alt="mapa lokalizacji" />
+          </aside>
+        </section>
+      </main>
+      <footer class="wrapper__footer">
+        <div class="footer__inline">
+          <div class="inline__box">
+            <p>Created with</p>
+            <span class="material-icons red"> favorite </span>
+            <p>by</p>
+            <a href="https://github.com/Fyrrj" target="_blank">Fyrrj</a>
+          </div>
+          <div class="footer__socials">
+            <a href="#">
+              <img src="./assets/fb-filled.svg" alt="ikona facebook"
+            /></a>
+            <a href="#">
+              <img src="./assets/instagram-filled.svg" alt="ikona instagram"
+            /></a>
+            <a href="#">
+              <img src="./assets/yt-new-filled.svg .svg" alt="ikona youtube" />
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./scripts/owlcarousel/dist/owl.carousel.min.js"></script>
+    <script src="./scripts/myOwn/script.js"></script>
+  </body>
+</html>
